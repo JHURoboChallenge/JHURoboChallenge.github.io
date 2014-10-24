@@ -430,10 +430,13 @@ th {
 body {
   font-size: 15px;
   line-height: 1.5;
-  background: #fafafa url(../images/body-bg.jpg) 0 0 repeat;
+  /*background: #fafafa url(../images/body-bg.jpg) 0 0 repeat;*/
+  background: #377EDA;
+  /*background: #ffffff;*/
   font-family: 'Helvetica Neue', Helvetica, Arial, serif;
   font-weight: 400;
-  color: #666;
+  /*color: #666;*/
+  color: #ffffff;
 }
 
 p {
@@ -441,17 +444,21 @@ p {
 }
 
 a {
-  color: #2879d0;
+  /*color: #2879d0;*/
+  /*color: #777;*/
+  color: #ffff00;
 }
 a:hover {
-  color: #2268b2;
+  /*color: #2268b2;*/
+  color: #aaaaaa;
 }
 
 header {
   padding-top: 40px;
   padding-bottom: 40px;
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
-  background: #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x;
+  /*background: #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x;*/
+  background: #ffffff;
   border-bottom: solid 1px #275da1;
 }
 
@@ -459,16 +466,19 @@ header h1 {
   letter-spacing: -1px;
   font-size: 72px;
   font-weight: normal;
-  color: #fff;
+  /*color: #fff;*/
+  color: #2865C6;
   line-height: 1;
   margin-top: 0;
   margin-bottom: 0.2em;
   width: 540px;
+  width: 1240px;
 }
 
 header h2 {
   font-size: 26px;
-  color: #9ddcff;
+  /*color: #9ddcff;*/
+  color: #ffffff;
   font-weight: normal;
   line-height: 1.3;
   width: 540px;
@@ -650,7 +660,8 @@ form {
   font-weight: bold;
   margin-top: 24px;
   margin-bottom: 8px;
-  color: #474747;
+  /*color: #474747;*/
+  color: #ffffff;
   text-indent: 3px;
 }
 
