@@ -487,6 +487,19 @@ header h2 {
   margin-bottom: 0;
 }
 
+/*header h3 {
+  letter-spacing: -1px;
+  font-size: 52px;
+  font-weight: normal;
+  color: #fff;
+  color: #2865C6;
+  line-height: 1;
+  margin-top: 0;
+  margin-bottom: 0.2em;
+  width: 540px;
+  width: 1240px;
+}*/
+
 .inner {
   position: relative;
   width: 940px;
@@ -506,6 +519,17 @@ header h2 {
 #main-content img {
   max-width: 100%;
 }
+
+div.ResultImgs {
+  max-width: 100%;
+}
+div.ResultImgs img {
+  max-width: 40%;
+}
+div.ResultImgs video {
+  max-width: 40%;
+}
+
 
 aside#sidebar {
   width: 200px;
@@ -583,7 +607,8 @@ pre code {
 }
 
 ul, ol, dl {
-  margin-bottom: 20px;
+  margin-top: 0px;
+  margin-bottom: 10px;
 }
 
 
@@ -667,6 +692,18 @@ form {
   text-indent: 3px;
 }
 
+#results h3 {
+  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+  font-size: 48px;
+  font-weight: bold;
+  margin-top: 24px;
+  margin-bottom: 8px;
+  /*color: #474747;*/
+  color: #ffffff;
+  text-indent: 3px;
+}
+
+
 #main-content h3:before {
   content: "///";
   color: #9ddcff;
@@ -719,7 +756,7 @@ h6:before {
 }
 
 p {
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 
 a {
@@ -744,7 +781,7 @@ ul {
 
 ol {
   list-style: decimal inside;
-  padding-left: 3px;
+  padding-left: 20px;
 }
 
 dl dd {
